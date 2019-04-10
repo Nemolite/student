@@ -1,0 +1,207 @@
+.f_aside {  
+          /*Этот блок для сайдбара*/
+   margin-top: 5px;
+   height: 285px;  
+   width:100%; /*Ширина сайдбара*/
+  /* border:1px dashed #333;*/
+   padding:10px;/* Поля вокруг текста */
+     
+   line-height: 20px;
+     /*Вытягивает сайтбар*/
+   font-size: 15px;
+         /* Размер шрифта в пунктах */
+   font-weight: bold;
+  /* Жирное начертание */
+   color: #9400D3;
+            /* Цвет заголовка */ 
+   text-align: center;
+  /* Выравнивание по центру */
+   text-shadow: 0 1px white;
+  /*Добавляет тень к тексту, а также устанавливает её параметры:*/
+   /*border-bottom: 1px solid #cfcfcf;*/
+  /* Свойство позволяет одновременно установить толщину, стиль и цвет границы внизу элемента.*/
+   border-radius: 3px 3px 0 0;
+
+   background: #D8BFD8;
+ /*Цвет фона блока под логин и пароль */
+   border-radius: 3px;
+  
+  -webkit-box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+  
+  box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.f_content {
+     font-size: 20px;
+     color:#8B0000;
+     text-align: center;
+}
+
+.f_footer {                           
+       text-align: center;
+    /* width: 980px; */
+    height: 50px;
+    background: #DDA0DD;
+    /* margin-top: 250px; */
+    font-style: italic;
+    /* border: 1px dashed #333; */
+    border-radius: 3px 3px 0 0;
+    margin-top: 5px;
+    padding-top: 18px;
+    font-size: 16px;
+ }
+
+ .f_nav {
+    width: 375px;
+    height: 30px;
+    margin: 0 auto;
+ }
+
+ nav li {
+   list-style-type: none; 
+ }
+
+ .f_center {
+text-align: center;  
+ }
+
+  button.f_submit {
+background-color: #bc166c;
+background: -webkit-gradient(linear, left top, left bottom, from(#bc166c), to(#d893b7));
+background: -webkit-linear-gradient(top, #bc166c, #d893b7);
+background: -moz-linear-gradient(top, #bc166c,#d893b7);
+background: -ms-linear-gradient(top, #bc166c, #d893b7);
+background: -o-linear-gradient(top, #bc166c, #d893b7);
+background: linear-gradient(top, #bc166c, #d893b7);
+border: 1px solid #d893b7;
+border-bottom: 1px solid #a5125e;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+box-shadow: inset 0 1px 0 0 #b2315a;
+ -webkit-box-shadow: 0 1px 0 0 #b2315a inset ;
+ -moz-box-shadow: 0 1px 0 0 #b2315a inset;
+ -ms-box-shadow: 0 1px 0 0 #b2315a inset;
+ -o-box-shadow: 0 1px 0 0 #b2315a inset;
+color: white;
+font-weight: bold;
+padding: 7px 70px;
+text-align: center;
+text-shadow: 0 -1px 0 #ad2b56;
+margin-left: 328px;
+}
+
+button.f_submit:hover {
+opacity:.85;
+cursor: pointer;.
+}
+
+button.f_submit:active {
+border: 1px solid #20911e;
+box-shadow: 0 0 10px 5px #edc0c3 inset;
+-webkit-box-shadow:0 0 10px 5px #edc0c3 inset ;
+-moz-box-shadow: 0 0 10px 5px #edc0c3#356b0b inset;
+-ms-box-shadow: 0 0 10px 5px #edc0c3 inset;
+-o-box-shadow: 0 0 10px 5px #edc0c3 inset;}
+
+.login-pravila {text-decoration: none;
+}
+
+.f_label_1,
+.f_input_1,
+.f_label_2,
+.f_input_2
+
+
+ {
+  float: left;
+  margin-left: 35px;
+ }
+
+
+ .f_label_2 p {
+  padding-top: 6px;
+ }
+
+ .f_label_1 p {
+  padding-top: 6px;
+ }
+
+ .f_loign {
+      margin-top: 64px;
+ }
+
+ .pol {
+  width: 245px;
+  height: 25px;
+  color: #E07F7F;
+ }
+
+ .f_login_pass {
+     width: 400px;
+     height: 300px;
+     margin: 120px auto;
+    padding-top: 25px;
+    padding-left: 58px;
+     -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color:#fff ;
+    
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+
+ }
+
+ .f_login_pass h3 {
+   
+   padding-bottom: 5px;
+ }
+
+ .full_fon {
+     background-image:url(../images/fon1.png) ;
+ }
+
+ .f_form-control {
+    display: block;
+    /* width: 100%; */
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+/**/
+
+.f_header {
+border-radius: 3px 3px 0 0;
+
+   background: #D8BFD8;
+ /*Цвет фона блока под логин и пароль */
+   border-radius: 3px;
+  
+  -webkit-box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+  
+  box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.f_exit {
+    color: red;
+    width: 100px;
+    height: 36px;
+    font-size: 20px;
+}
+

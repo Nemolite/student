@@ -1,0 +1,156 @@
+article,aside,footer,header{display:block;} /* html5-элементы Отображались как блочные*/
+body{
+  /* width:980px;   Ширина страницы*/
+   margin-right: auto; /* Отступ справа */
+   margin-left: auto; /* Отступ слева */
+   margin-top: 0px; /* Устанавливаем отступ сверху */
+   background-image:url(../images/fon1.png) ;
+   background-attachment: fixed;
+   background-size: cover; 
+   border:0px solid #333;
+} /**/
+header{ 
+    margin-top:3px;          /*Устанавливает величину отступа от верхнего края элемента.*/
+    text-align: justify;    /*Определяет горизонтальное выравнивание текста в пределах элемента.*/
+    letter-spacing:2px; /*Определяет интервал между символами в пределах элемента.*/
+    height: 310px;
+    padding:4px 70px;       /*Устанавливает значение полей вокруг содержимого элемента*/
+    background: #D8BFD8;
+    font-size: 16px;
+    color:white;
+    font-family:Monotype Corsiva;
+}
+
+header h1{
+     display:block;
+     margin-top:-350px;
+     margin-left:265px;
+}
+header img{
+ margin-left:-100px;
+ margin-top:-5px;
+ margin-right: 150px;
+}
+header a{
+ text-decoration:none; 
+ font-size: 20px;
+ color:white;
+}
+header::after {
+    content: ' ';
+    display: inline-block;
+    width: 200px;
+}
+
+header h1::before {
+    content: ' ';
+    display: block;
+    vertical-align: middle;  
+    height: 90px;
+}
+header nav{
+      width: 518,5px;
+      float: right;/*Определяет, по какой стороне будет выравниваться элемент, при этом остальные элементы будут обтекать его с других сторон.*/
+      margin:15px -55px 25px 0;/*Устанавливает величину отступа от каждого края элемента.*/
+      list-style: none;
+      background-color: #f2f2f2;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc; 
+      display: inline-block;
+      
+}
+nav li {
+      float: left; }
+nav li a {
+      display: block;
+      padding: 4px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #DC143C;
+      border-right: 1px solid #ccc; }
+      nav li a:hover {
+      color: #c00;
+      background-color: #fff; }
+
+article{  /*А в этом блоке расположен контент*/
+    width:700px; 
+    heiting:auto;
+    font-size: 24px;
+    padding-top:38px;/*Отступ сверху*/
+    padding-left:270px;
+    color:#8B0000;
+ }
+article h1{
+     font-size: 33px;
+     padding-left:170px;
+     color:#8B0000;}
+
+aside {            /*Этот блок для сайдбара*/
+   position:fixed; 
+   width:210px; /*Ширина сайдбара*/
+   top:300px; 
+   border:1px dashed #333;
+   padding:10px;/* Поля вокруг текста */
+   margin: 25px 0px -10px ;
+  
+   line-height: 20px;
+     /*Вытягивает сайтбар*/
+   font-size: 15px;
+         /* Размер шрифта в пунктах */
+   font-weight: bold;
+  /* Жирное начертание */
+   color: #9400D3;
+            /* Цвет заголовка */ 
+   text-align: center;
+  /* Выравнивание по центру */
+   text-shadow: 0 1px white;
+  /*Добавляет тень к тексту, а также устанавливает её параметры:*/
+   border-bottom: 1px solid #cfcfcf;
+  /* Свойство позволяет одновременно установить толщину, стиль и цвет границы внизу элемента.*/
+   border-radius: 3px 3px 0 0;
+
+   background: #D8BFD8;
+ /*Цвет фона блока под логин и пароль */
+   border-radius: 3px;
+  
+  -webkit-box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+  
+  box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+}
+ aside h2{font-family:Arial, Helvetica, sans-serif; 
+   font-size:16px; 
+  }
+ aside p{
+   padding-left:30px; 
+   font-size:14px; 
+   padding-right:40px;}
+ aside a{
+    text-decoration:none; 
+    color:black;
+    list-style-type:none; 
+    font-family:Arial, Helvetica, sans-serif;
+     }  /*Забыли пароль?*/
+
+footer{                           
+   text-align:center; 
+   width:980px; 
+   height:50px; 
+   background:#DDA0DD;
+   margin-top:250px;
+   font-style:italic ;
+   border:1px dashed #333;
+   border-radius: 3px 3px 0 0;
+   border-radius: 3px;
+  
+
+}
+footer p{
+    font-family:Arial, Helvetica, sans-serif; /**/
+   color:black;}           /**/
+
+
+
+

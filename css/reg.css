@@ -1,0 +1,102 @@
+﻿*:focus {outline: none;}
+body {
+   width:680px; 
+   font: 15px/34px "Times New Roman", Times, serif;
+   color: #404040;
+   background-image:url(../images/fon1.png) ;
+   background-attachment: fixed;
+   background-size: cover;;
+   margin: 20px auto;    
+}  
+nav{ margin: auto;}
+nav li {
+      float: left; }
+nav li a {
+      display: block;
+      padding: 4px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #DC143C;
+      border-right: 1px solid #ccc; }
+nav li a:hover {
+      color: #c00;
+	  font: 17px "Times New Roman", Times, serif;
+      background-color: #F08080; }   
+ 
+.h1{border-bottom:1px solid #b20a0a; border-bottom-width: 3px;}
+.container{float:left;}
+.field {
+  clear:both;          /*Устанавливает, с какой стороны элемента запрещено его обтекание другими элементами.*/
+  text-align:right;
+  line-height:15px;
+  border-bottom:2px solid #b20a0a;
+  padding:6,5px;
+  position:relative;}
+
+placeholder {float:left; padding-right:10px;font: 15px "Times New Roman", Times, serif; }
+ 
+::-webkit-input-placeholder {color: #e07f7f;}
+
+button.submit {
+background-color: #bc166c;
+background: -webkit-gradient(linear, left top, left bottom, from(#bc166c), to(#d893b7));
+background: -webkit-linear-gradient(top, #bc166c, #d893b7);
+background: -moz-linear-gradient(top, #bc166c,#d893b7);
+background: -ms-linear-gradient(top, #bc166c, #d893b7);
+background: -o-linear-gradient(top, #bc166c, #d893b7);
+background: linear-gradient(top, #bc166c, #d893b7);
+border: 1px solid #d893b7;
+border-bottom: 1px solid #a5125e;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+box-shadow: inset 0 1px 0 0 #b2315a;
+ -webkit-box-shadow: 0 1px 0 0 #b2315a inset ;
+ -moz-box-shadow: 0 1px 0 0 #b2315a inset;
+ -ms-box-shadow: 0 1px 0 0 #b2315a inset;
+ -o-box-shadow: 0 1px 0 0 #b2315a inset;
+color: white;
+font-weight: bold;
+padding: 0px 18px;
+text-align: center;
+text-shadow: 0 -1px 0 #ad2b56;
+}
+button.submit:hover {
+opacity:.85;
+cursor: pointer;.
+}
+
+button.submit:active {
+border: 1px solid #20911e;
+box-shadow: 0 0 10px 5px #edc0c3 inset;
+-webkit-box-shadow:0 0 10px 5px #edc0c3 inset ;
+-moz-box-shadow: 0 0 10px 5px #edc0c3#356b0b inset;
+-ms-box-shadow: 0 0 10px 5px #edc0c3 inset;
+-o-box-shadow: 0 0 10px 5px #edc0c3 inset;}
+
+.login-pravila {text-decoration: none;
+}
+#footer{                           
+   text-align:center; 
+   width:680px; 
+   height:100px; 
+   background:#0ca3d2;
+     font-style:italic ;
+   border:1px dashed #333;
+   border-radius: 3px 3px 0 0;
+   border-radius: 3px;
+  
+
+}
+#footer p{
+    font-family:Arial, Helvetica, sans-serif; /**/
+   color:black;}           /**/
+
+
+
+
+
+
+
